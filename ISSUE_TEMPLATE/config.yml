@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: CCBL Official Website
+    url: https://ccbl.cc
+    about: License introduction, comparison, and usage guide
+  - name: CCBL Email
+    url: mailto:hello@ccbl.cc
+    about: For non-public inquiries
