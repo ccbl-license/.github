@@ -1,0 +1,64 @@
+name: 🌐 Translation Contribution / Multi-language Support
+description: Submit translations of the CCBL license to other languages (currently English and Chinese)
+title: "[Translation] "
+labels: ["translation"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for helping CCBL go global
+        Please provide information about your translation. The English version is authoritative; translations are for reference only.
+
+  - type: dropdown
+    id: language
+    attributes:
+      label: Target Language
+      options:
+        - Japanese
+        - Korean
+        - German
+        - French
+        - Spanish
+        - Russian
+        - Other (please specify below)
+    validations:
+      required: true
+
+  - type: input
+    id: language-other
+    attributes:
+      label: Other Language
+      placeholder: Please specify
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: License Version
+      options:
+        - 1.6
+        - 1.5
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: translation-content
+    attributes:
+      label: Translation Content
+      description: Please paste the complete translation or provide a GitHub Gist / document link
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: disclaimer
+    attributes:
+      label: Declaration
+      options:
+        - label: I confirm this translation is my original work or I have obtained permission
+          required: true
+        - label: I understand the English version is authoritative and this translation is for reference only
+          required: true
+        - label: I have read and agree to the CCBL Contribution Terms (submission implies consent)
+          required: true
