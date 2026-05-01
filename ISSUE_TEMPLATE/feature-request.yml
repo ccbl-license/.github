@@ -1,0 +1,57 @@
+name: 💡 Feature Request / License Improvement
+description: Suggest improvements or new features for the CCBL license
+title: "[Proposal] "
+labels: ["enhancement"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Thank you for your suggestion
+        Please describe what you would like to add or improve in the CCBL license.
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Add new clause / definition
+        - Modify existing clause
+        - Add new appendix (e.g., AI policy extension)
+        - Documentation / example improvement
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem Statement
+      description: What scenario does the current license not address?
+      placeholder: "For example: The current license does not clearly address..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Proposed Solution
+      description: What content would you like to add or change?
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact Assessment
+      description: How would this change affect existing users and contributors?
+      placeholder: "For example: Backward compatible / requires version bump / no rights reduction..."
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read and agree to the CCBL Contribution Terms (submission implies consent)
+          required: true
