@@ -1,0 +1,42 @@
+name: ❓ Question / Inquiry
+description: Questions about using the CCBL license
+title: "[Question] "
+labels: ["question"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Question about Using CCBL
+        Please describe your question in detail.
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your Question
+      description: Please be as specific as possible
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - License interpretation (meaning of a specific clause)
+        - Use case (whether my scenario is compliant)
+        - Contributor status (how to become a Qualified Contributor)
+        - Commercial license (how to purchase)
+        - AI policy related
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have read the [FAQ](https://ccbl.cc/faq/) and [Guide](https://ccbl.cc/guide/), and did not find an answer
+          required: true
