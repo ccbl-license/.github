@@ -1,10 +1,13 @@
 # CCBL — Contribution-Commercial-Benevolent License
 
-<img src="https://ccbl.cc/logo.svg" alt="CCBL Logo" width="120">
+[![License Version](https://img.shields.io/badge/version-1.7-blue.svg)](https://github.com/ccbl-license/ccbl-license/blob/main/LICENSE)
+[![Official Website](https://img.shields.io/badge/website-ccbl.cc-brightgreen.svg)](https://ccbl.cc)
 
 **CCBL** is a source-available license designed for independent developers and commercial open source projects.
 
 **Core Principles**: Personal Free · Company Pays · Contributors Free · AI Protection · 1% Donation
+
+> **CCBL is developed & maintained by [Ignotus Labs](https://github.com/ignotuslabs).** The license specification text is dedicated to the public.
 
 ---
 
@@ -21,25 +24,30 @@
 
 ### Use CCBL in Your Project
 
-1. Copy the `LICENSE` file to your project root
+1. Copy the [`LICENSE`](https://github.com/ccbl-license/ccbl-license/blob/main/LICENSE) file to your project root
 2. Replace `[year]` and `[copyright holder name]`
-3. (Optional) Add `AI_POLICY.md`
+3. (Recommended) Add [`AI_POLICY.md`](https://github.com/ccbl-license/ccbl-license/blob/main/AI_POLICY.md)
 
-For detailed steps, see [Guide](https://ccbl.cc/guide/)
+For detailed steps, see the [Guide](https://github.com/ccbl-license/ccbl-license/blob/main/guide.md).
 
 ### Become a Contributor
 
-Submit a PR or valid Issue that gets accepted, and you will receive **perpetual free commercial use** of the software.
+Submit a PR or valid Issue that gets **explicitly accepted or merged**, and you receive **perpetual free commercial use** of the software. This right is personal and does not extend to your employer.
 
 [View Contribution Guidelines](https://github.com/ccbl-license/ccbl-license/blob/main/CONTRIBUTING.md)
+
+### For Commercial Users
+
+Without a qualifying contribution, you must purchase a commercial license from the copyright holder.
 
 ---
 
 ## 📚 Links
 
-- [Official Website](https://ccbl.cc) — Introduction, comparison, FAQ
-- [License Text](https://github.com/ccbl-license/ccbl-license/blob/main/LICENSE) — CCBL 1.6
+- [Official Website](https://ccbl.cc) — Introduction, comparison, FAQ, Chinese version
+- [License Text](https://github.com/ccbl-license/ccbl-license/blob/main/LICENSE) — CCBL 1.7
 - [Version Archive](https://github.com/ccbl-license/ccbl-license/tree/main/versions) — Historical versions
+- [FAQ](https://github.com/ccbl-license/ccbl-license/blob/main/FAQ.md) — Frequently asked questions
 - [Issues](https://github.com/ccbl-license/ccbl-license/issues) — Report problems or suggestions
 
 ---
